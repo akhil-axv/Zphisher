@@ -1,0 +1,13 @@
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install git php curl wget -y
+
+
+git clone https://github.com/htr-tech/zphisher
+
+ 
+cd zphisher
+chmod +x zphisher.sh
+
+
+./zphisher.sh
